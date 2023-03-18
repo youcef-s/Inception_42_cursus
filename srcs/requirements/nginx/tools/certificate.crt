@@ -1,0 +1,2 @@
+create your own self-signed certificate and private key using this command:
+openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:4096 -keyout /etc/nginx/ssl/login.key -out /etc/nginx/ssl/login.crt -subj "/C=MA/ST=Béni Mellal-Khénifra/L=Khouribga/O=1337/OU=login/CN=login.42.fr"
